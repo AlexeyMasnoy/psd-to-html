@@ -1,0 +1,277 @@
+body {
+  background-color: #d0d0d0;
+  background-image: url("../img/background.jpg");
+}
+
+p {
+  margin: 0px 0px 10px;
+  padding: 3px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  margin: 0px;
+  padding: 3px;
+  list-style-type: none;  
+}
+
+a {
+  text-decoration: none;
+  color: #acacac;
+  font-size: bold 20px ;
+ 
+}
+header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 989px;
+  margin-top: 45px;
+  height: 45px;
+  box-shadow: 2px 2px 5px #9e9e9e, -1px -1px 5px #c6c6c6;
+  
+
+}
+header nav ul {
+    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+header nav ul li {
+  float: left;
+  background: url("../img/background2.jpg");
+  width: 59px;
+  height: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  margin: 0px;
+  padding: 15px 30px 15px;
+  border: 1px solid #c2c2c2;
+  border-left-color:  #fdfdfd;
+  border-right-color:  #dddddd; 
+}
+
+header nav ul li a, section#pics article ul li a {
+  text-shadow: 0 -1px 0 #979797;
+  font-weight: 600;
+}
+
+nav ul li:hover, nav .selected {
+  
+  box-shadow: 2px 4px 35px #b8b8b8 inset;
+  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  text-color: #616160;
+
+}  
+nav ul li a:hover {
+color: #616160;
+  
+}
+
+
+nav ul li#logo {
+  background-image: url("../img/logo.png"), url("../img/background2.jpg");
+  background-repeat: no-repeat, repeat;
+  width: 80px;
+  height: 15px;
+  background-position: center;
+  display: inline-block;
+} 
+
+h3 {
+  text-align: center;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  margin: 1px 20px 10px 20px;
+  text-shadow: 2px 2px 15px #9e9e9e inset;
+}
+
+button {
+  margin: 1px 20px 25px 20px;
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background: linear-gradient(#f7f7f7, #efefef);
+  color: #959595;
+  box-shadow: 1px 1px 3px #9e9e9e;
+}
+
+button:hover {
+  color: #616160;
+  box-shadow: 0px 0px 0px #9e9e9e;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+nav ul li ul {
+  display: none;
+  position: relative;
+  font-size: 10px;
+  font-weight: 400px;
+}
+
+nav ul li ul li{
+  margin-right: 20px;
+   
+}
+
+section#pics {
+  background-image: url("../img/background2.jpg");
+}
+
+section#pics article ul  {
+  background-image: url("../img/background2.jpg");
+  padding: 5px;
+  background-color: #ebebeb;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section#pics article ul li {
+  
+  padding-right: 20px;
+}
+
+section#pics article ul li a:hover {
+  color: #4b4b4b;
+}
+
+section#pics_block {
+  
+  display: inline-block;
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  border: 0px;
+ 
+}
+
+section#pics_block div {
+  
+  height: 240px;
+  position: relative;
+}
+
+section#pics_block div ul li {
+  display: inline-block;
+  padding: 0px;
+  margin-bottom: 1px;
+  height: 240px;
+}
+
+section#pics_block div ul li img {
+  
+  margin-right: -4px;
+  padding: 0px;
+  width: 240px;
+}
+
+section {
+  background-color: #ebebeb;
+  margin: 45px;
+  padding: 14px;
+  border: 1px solid #c8c8c8;
+  box-shadow: 2px 2px 5px #9e9e9e, -1px -1px 1px #c3c3c3;
+  
+  
+}
+div#fotterSocial {
+  float: right;
+  margin-right: -15px; 
+  padding-top: 10px;
+}
+
+div#fotterSocial ul li {
+  float: right;
+  display: inline-block;
+  width: 28px;
+  height: 25px;
+  box-shadow: 2px 2px 3px #9e9e9e;
+  background-color: #f6f6f6; 
+  margin-left: 10px;
+  border-radius: 3px;
+
+}
+div#fotterSocial ul li a img {
+  
+  color: #f6f6f6;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+article#siteInfo ul li {
+  float: left;
+  display: inline;
+}
+
+article#siteInfo ul li a:hover {
+  color: #616160;
+}
+
+article#siteInfo p {
+  margin: 0px;
+}
+
+article#footer {
+  margin-left: -25px;
+  color: #acacac;
+}
+
+article.footer {
+  padding: 30px;
+}
+
+article ul li {
+  display: inline;
+  text-align: center;
+}
+
+article h4 {
+  padding: 20px 20px 1px 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+article h4 a {
+  color: #666666;
+}
+
+article h6 {
+  font-size: 10px;
+  font-style: italic;
+  color: #acacac;
+  margin: 0px;
+  padding: 1px 20px 5px 20px;
+}
+
+section.top_content {
+  background-image: url("../img/background2.jpg");
+}
+
+div.content {
+  background-color: #f4f4f4;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.content article p{
+  padding: 10px 20px 10px 20px;
+  color: #959595;
+}
+
+section#banner img {
+  display: block;
+  width: 100%;
+  
+}

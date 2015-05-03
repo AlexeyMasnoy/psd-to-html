@@ -1,0 +1,6 @@
+{
+  "name": "website_template",
+  "dependencies": {
+    "jquery": "1.11"
+  }
+}
