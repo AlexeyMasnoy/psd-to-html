@@ -14,7 +14,7 @@ ul {
 }
 
 li{
-  margin: 0px;
+  margin:   0px;
   padding: 3px;
   list-style-type: none;  
 }
@@ -121,7 +121,7 @@ nav ul li ul {
 }
 
 nav ul li ul li{
-  margin-right: 20px;
+  margin-right: 0px;
    
 }
 
@@ -147,34 +147,25 @@ section#pics article ul li a:hover {
   color: #4b4b4b;
 }
 
-section#pics_block {
-  
-  display: inline-block;
+#pics_block {
+  display: block;
   padding: 0px;
-  margin: 10px 0px 0px 0px;
+  margin: 10px auto 0px auto;
   border: 0px;
- 
 }
 
-section#pics_block div {
-  
-  height: 240px;
-  position: relative;
-}
-
-section#pics_block div ul li {
+.pictures {
   display: inline-block;
   padding: 0px;
-  margin-bottom: 1px;
-  height: 240px;
-}
+} 
 
-section#pics_block div ul li img {
-  
-  margin-right: -4px;
-  padding: 0px;
-  width: 240px;
-}
+.pictures img {
+  position: ;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 237px;
+  height: 100%;
+  }
 
 section {
   background-color: #ebebeb;
@@ -254,23 +245,25 @@ article h6 {
   padding: 1px 20px 5px 20px;
 }
 
-section.top_content {
-  background-image: url("../img/background2.jpg");
-}
-
-div.content {
+.content {
+  opacity: 1.0;
   background-color: #f4f4f4;
   width: auto;
   margin: 0px;
   padding: 0px;
 }
 
-div.content article p{
+.content article p{
   padding: 10px 20px 10px 20px;
   color: #959595;
+  opacity: 1.0
 }
 
-section#banner img {
+.top_content {
+  background-image: url("../img/background2.jpg");
+}
+
+#banner img {
   display: block;
   width: 100%;
   
