@@ -1,6 +1,6 @@
 > Первая верстка макета PSD
 
-https://github.com/AlexeyMasnoy/website_template/blob/master/Website%20Template%20V2.jpg
+.. image::https://github.com/AlexeyMasnoy/website_template/blob/master/Website%20Template%20V2.jpg
 
 Как установить?
 
