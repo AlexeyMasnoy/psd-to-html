@@ -2,6 +2,10 @@
 
 ![Image alt](https://github.com/AlexeyMasnoy/website_template/blob/master/Website%20Template%20V2.jpg)
 
+Результат:
+
+![Image alt](https://github.com/AlexeyMasnoy/website_template/blob/master/Free%20Site%20Tamplate_files.png)
+
 
 Установка:
 
