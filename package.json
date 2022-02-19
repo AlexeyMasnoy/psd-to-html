@@ -1,7 +1,30 @@
 {
+  "name": "psd-to-html",
+  "version": "1.0.0",
+  "description": "> Первая верстка макета PSD",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyMasnoy/psd-to-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeyMasnoy/psd-to-html/issues"
+  },
+  "homepage": "https://github.com/AlexeyMasnoy/psd-to-html#readme",
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-connect": "^2.2.0",
-    "opn": "^1.0.2"
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "filename-regex": "^2.0.1",
+    "laravel-mix": "^6.0.43"
   }
 }

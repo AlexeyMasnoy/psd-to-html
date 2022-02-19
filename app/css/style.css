@@ -1,6 +1,10 @@
+@import '960_12_col.css';
+@import 'reset.css';
+@import 'text.css';
+
 body {
   background-color: #d0d0d0;
-  background-image: url("../img/background.jpg");
+  background-image: url("/img/background.jpg");
 }
 
 p {
@@ -98,11 +102,11 @@ section {
 
 #pics {
 
-  background-image: url("../img/background2.jpg");
+  background-image: url("/img/background2.jpg");
 }
 
 #pics article ul  {
-  background-image: url("../img/background2.jpg");
+  background-image: url("/img/background2.jpg");
   padding: 5px;
   background-color: #ebebeb;
   text-align: center;
@@ -262,7 +266,7 @@ article h6 {
 }
 
 .top_content {
-  background-image: url("../img/background2.jpg");
+  background-image: url("/img/background2.jpg");
   width: 90%;
   display: block; 
   
